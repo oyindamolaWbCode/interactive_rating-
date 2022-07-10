@@ -1,0 +1,1 @@
+let thankYou = document.querySelector(".thankyou").style.display = "none";
