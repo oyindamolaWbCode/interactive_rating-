@@ -113,14 +113,14 @@ img{
 }
 
 #space-container #its-styling{
-    color: rgb(150, 5, 150);
+    color:hsl(25, 97%, 53%);
     opacity: 0.9;
     text-align: center;
    
 }
 
 #space-container #rating{
-    color: rgb(150, 5, 150);
+    color: hsl(25, 97%, 53%);
     opacity: 0.9;
     text-align: center;
     display: inline-block;
