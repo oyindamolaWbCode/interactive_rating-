@@ -63,3 +63,37 @@ button{
     background-color: hsl(25, 97%, 53%);
     color:white;
 }
+
+img{
+   margin-left: 140px;
+   margin-bottom: 30px;
+}
+
+.decorated-para{
+    height:27px;
+    width:65%;
+    margin:auto;
+    background-color:hsl(218, 17%, 9%) ;
+    border-radius: 15px; 
+    margin-bottom: 30px; 
+}
+
+#space-container #its-styling{
+    color: rgb(150, 5, 150);
+    opacity: 0.9;
+    text-align: center;
+}
+
+#space-container #h4-style{
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+    font-family:'Overpass', sans-serif;
+    font-size:28px;
+    margin-bottom: 10px;
+}
+
+#space-container #para-style{
+   padding:10px; 
+   margin: 0px;
+   color:aquamarine;
+}
