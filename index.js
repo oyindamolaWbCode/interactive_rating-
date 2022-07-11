@@ -19,11 +19,19 @@ for(let i = 0; i < ratingOne.length; i++){
   // Listening for click on each event
   ratingOne[i].addEventListener('click', () =>{
     // get the clicks from start to end
-    rating = ratingOne[i].innerHTML
+    rating = ratingOne[i].innerHTML;
     //removing previously clicked rate if another is clicked.
     for(let i = 0; i < ratingOne.length; i++){
-      ratingOne[i].classList.contains('seleted') 
-      ratingOne[i].classList.remove('selected')
+      ratingOne[i].classList.contains('selected') 
+      ratingOne[i].classList.remove('selected');
     }
-  })
+    //add selected rating
+    ratingOne[i].classList.add('selected');
+    //once btn is clicked it is redirected to thank you
+    submit.addEventListener('click', ()=>{
+      theContain.style.display = 'none';
+      thankYoun.style.display = 'block';
+      span.innerHTML = rating;
+    });
+  });
 }
