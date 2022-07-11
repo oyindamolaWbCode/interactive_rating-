@@ -6,7 +6,7 @@
 
 body{
     background-color: hsl(216, 12%, 8%);
-    /* text-align: center; */
+    text-align: center;
 }
 
 #space-container{
@@ -100,7 +100,6 @@ button{
 } */
 
 img{
-   margin-left: 140px;
    margin-bottom: 30px;
 }
 
@@ -117,6 +116,15 @@ img{
     color: rgb(150, 5, 150);
     opacity: 0.9;
     text-align: center;
+   
+}
+
+#space-container #rating{
+    color: rgb(150, 5, 150);
+    opacity: 0.9;
+    text-align: center;
+    display: inline-block;
+    margin-top:-10px;
 }
 
 #space-container #h4-style{
@@ -130,5 +138,5 @@ img{
 #space-container #para-style{
    padding:10px; 
    margin: 0px;
-   color:aquamarine;
+   color: hsl(217, 12%, 63%);
 }
