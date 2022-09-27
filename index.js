@@ -1,6 +1,9 @@
+
+
 let thanYoun = document.querySelector(".thankyoun").style.display = "none";
 
 // get the DOM
+
 let ratingOne = document.querySelectorAll(".rating-1");
 let rate = document.getElementById("rate");
 let rateOne = document.getElementById("rate1");
